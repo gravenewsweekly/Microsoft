@@ -3,100 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Microsoft Tribute</title>
+    <title>Microsoft - Contact</title>
     <style>
-        /* General reset and body styling */
+        /* Retro 1997 look CSS */
         body {
             font-family: Arial, sans-serif;
-            color: #000;
-            background-color: #E5E5E5;
+            background-color: #FFFFFF;
+            color: #000000;
             margin: 0;
             padding: 0;
-            display: flex;
-        }
-
-        /* Left sidebar styling */
-        .sidebar {
-            width: 200px;
-            background-color: #C0C0C0;
-            padding: 15px;
-            border-right: 2px solid #A0A0A0;
-        }
-
-        .sidebar h2 {
-            font-size: 1.2em;
-            color: #00008B;
-        }
-
-        .sidebar a {
-            display: block;
-            color: #0000EE;
-            text-decoration: none;
-            margin: 10px 0;
-            font-size: 14px;
-        }
-
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-
-        /* Main content styling */
-        .main-content {
-            padding: 20px;
-            flex-grow: 1;
-        }
-
-        .header {
-            background-color: #A0A0A0;
-            color: #000;
-            padding: 10px;
             text-align: center;
-            font-weight: bold;
-            font-size: 1.5em;
-            border-bottom: 2px solid #808080;
+        }
+
+        table {
+            width: 760px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+            text-align: left;
+        }
+
+        .sidebar {
+            width: 150px;
+            vertical-align: top;
+            padding: 10px;
+            background-color: #F0F0F0;
+            border-right: 1px solid #CCCCCC;
         }
 
         .content {
-            margin-top: 20px;
-            font-size: 1em;
+            padding: 20px;
         }
 
-        /* Footer styling */
+        h1 {
+            font-size: 24px;
+            color: #003399;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #003399;
+            text-align: left;
+        }
+
+        a {
+            color: #003399;
+            text-decoration: underline;
+        }
+
         .footer {
-            font-size: 0.8em;
-            color: #505050;
-            text-align: center;
+            font-size: 12px;
+            color: #666666;
             padding: 10px;
-            border-top: 2px solid #A0A0A0;
+            border-top: 1px solid #CCCCCC;
+        }
+
+        .note {
+            color: #666666;
+            font-size: 12px;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Left Sidebar Navigation -->
-    <div class="sidebar">
-        <h2>Navigation</h2>
-        <a href="index.html">Home</a>
-    </div>
-
-    <!-- Main Content Area -->
-    <div class="main-content">
-        <div class="header">Contact Us</div>
-
-        <div class="content">
-            <h2>Get in Touch</h2>
-            <p>We appreciate your interest in this tribute to Microsoft and welcome your thoughts, comments, and questions. Please feel free to reach out to us via email.</p>
-
-            <h3>Email Us</h3>
-            <p>If you have any inquiries or feedback regarding this project, you can contact us directly by clicking the link below:</p>
-            <p><a href="mailto:info@retro-microsoft.com">info@retro-microsoft.com</a></p>
-
-            <p>We look forward to hearing from you and appreciate your support for this nostalgic journey through Microsoft's history.</p>
-        </div>
-
-        <div class="footer">
-            &copy; 1997 Microsoft Corporation. All rights reserved. Tribute Project.
-        </div>
-    </div>
+    <table>
+        <!-- Header -->
+        <tr>
+            <td colspan="2">
+                <h1>Microsoft Corporation - Contact</h1>
+            </td>
+        </tr>
+        <!-- Sidebar Navigation -->
+        <tr>
+            <td class="sidebar">
+                <b>Navigation</b><br><br>
+                <a href="index.html">Home</a><br>
+            </td>
+            <!-- Main Content -->
+            <td class="content">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like more information about our products and services, please feel free to reach out. We are here to help!</p>
+                
+                <h3>Email Us</h3>
+                <p>You can contact our support team via email at:</p>
+                <p><b>support@microsoft1997.com</b></p>
+                
+                <div class="note">
+                    <p>Note: This is a tribute website created for nostalgic purposes only and is not officially affiliated with Microsoft Corporation.</p>
+                </div>
+            </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" class="footer">
+                &copy; 1997 Microsoft Corporation. All rights reserved. This is a tribute website.
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

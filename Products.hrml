@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Microsoft Tribute</title>
+    <style>
+        /* General reset and body styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #000;
+            background-color: #E5E5E5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Left sidebar styling */
+        .sidebar {
+            width: 200px;
+            background-color: #C0C0C0;
+            padding: 15px;
+            border-right: 2px solid #A0A0A0;
+        }
+
+        .sidebar h2 {
+            font-size: 1.2em;
+            color: #00008B;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #0000EE;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content styling */
+        .main-content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .header {
+            background-color: #A0A0A0;
+            color: #000;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+            border-bottom: 2px solid #808080;
+        }
+
+        .content {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+
+        /* Footer styling */
+        .footer {
+            font-size: 0.8em;
+            color: #505050;
+            text-align: center;
+            padding: 10px;
+            border-top: 2px solid #A0A0A0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Left Sidebar Navigation -->
+    <div class="sidebar">
+        <h2>Navigation</h2>
+        <a href="index.html">Home</a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <div class="header">Products</div>
+
+        <div class="content">
+            <h2>Featured Products</h2>
+            <p>This page showcases some of the most influential products released by Microsoft in the late 1990s, highlighting their impact on computing and technology.</p>
+
+            <h3>Windows 95</h3>
+            <p>Released in August 1995, Windows 95 was a significant milestone in Microsoft’s history. It introduced a user-friendly interface with a Start menu, taskbar, and improved multitasking capabilities. This operating system marked a major shift towards a graphical user interface and became a worldwide success, selling over 7 million copies in its first five weeks.</p>
+
+            <h3>Microsoft Office 97</h3>
+            <p>Launched in January 1997, Microsoft Office 97 was a comprehensive suite that included Word, Excel, PowerPoint, and Access. It introduced the Office Assistant, a feature that provided users with tips and help. The suite became a standard in many workplaces and homes, making office productivity software more accessible to the general public.</p>
+
+            <h3>Windows NT 4.0</h3>
+            <p>Released in July 1996, Windows NT 4.0 was designed for businesses and power users. It combined the stability of Windows NT with the user interface of Windows 95. This version was widely adopted in corporate environments due to its security and performance features, making it suitable for servers and workstations.</p>
+
+            <h3>Microsoft Internet Explorer 4.0</h3>
+            <p>Launched in September 1997, Internet Explorer 4.0 was a major release that integrated web browsing with the Windows operating system. It introduced features like Active Desktop, which allowed users to place web content on their desktop, further pushing the boundaries of web technology and user experience.</p>
+
+            <h3>Microsoft Visual Studio 6.0</h3>
+            <p>Released in 1998, Visual Studio 6.0 was a suite of tools for software developers. It included tools for Visual Basic, Visual C++, and Visual FoxPro. This version made it easier for developers to create applications for Windows, solidifying Microsoft's position in the software development market.</p>
+
+            <p>These products not only defined an era for Microsoft but also shaped the future of personal and professional computing. They remain a testament to innovation and user-centered design.</p>
+        </div>
+
+        <div class="footer">
+            &copy; 1997 Microsoft Corporation. All rights reserved. Tribute Project.
+        </div>
+    </div>
+</body>
+</html>

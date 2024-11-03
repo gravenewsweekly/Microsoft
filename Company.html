@@ -3,112 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Info - Microsoft Tribute</title>
+    <title>Microsoft - Company Information</title>
     <style>
-        /* General reset and body styling */
+        /* Basic CSS to simulate the 1997 look */
         body {
             font-family: Arial, sans-serif;
-            color: #000;
-            background-color: #E5E5E5;
+            background-color: #FFFFFF;
+            color: #000000;
             margin: 0;
             padding: 0;
-            display: flex;
-        }
-
-        /* Left sidebar styling */
-        .sidebar {
-            width: 200px;
-            background-color: #C0C0C0;
-            padding: 15px;
-            border-right: 2px solid #A0A0A0;
-        }
-
-        .sidebar h2 {
-            font-size: 1.2em;
-            color: #00008B;
-        }
-
-        .sidebar a {
-            display: block;
-            color: #0000EE;
-            text-decoration: none;
-            margin: 10px 0;
-            font-size: 14px;
-        }
-
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-
-        /* Main content styling */
-        .main-content {
-            padding: 20px;
-            flex-grow: 1;
-        }
-
-        .header {
-            background-color: #A0A0A0;
-            color: #000;
-            padding: 10px;
             text-align: center;
-            font-weight: bold;
-            font-size: 1.5em;
-            border-bottom: 2px solid #808080;
+        }
+
+        table {
+            width: 760px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+            text-align: left;
+        }
+
+        /* Navigation sidebar */
+        .sidebar {
+            width: 150px;
+            vertical-align: top;
+            padding: 10px;
+            background-color: #F0F0F0;
+            border-right: 1px solid #CCCCCC;
         }
 
         .content {
-            margin-top: 20px;
-            font-size: 1em;
+            padding: 20px;
         }
 
-        /* Footer styling */
+        h1 {
+            font-size: 24px;
+            color: #003399;
+            text-align: left;
+        }
+
+        a {
+            color: #003399;
+            text-decoration: underline;
+        }
+
         .footer {
-            font-size: 0.8em;
-            color: #505050;
-            text-align: center;
+            font-size: 12px;
+            color: #666666;
             padding: 10px;
-            border-top: 2px solid #A0A0A0;
-            margin-top: 20px;
+            border-top: 1px solid #CCCCCC;
         }
     </style>
 </head>
 <body>
-    <!-- Left Sidebar Navigation -->
-    <div class="sidebar">
-        <h2>Navigation</h2>
-        <a href="index.html">Home</a>
-    </div>
-
-    <!-- Main Content Area -->
-    <div class="main-content">
-        <div class="header">Company Info</div>
-
-        <div class="content">
-            <h2>About Microsoft</h2>
-            <p>Founded in 1975 by Bill Gates and Paul Allen, Microsoft has grown to become one of the world's leading technology companies, known for its software products, hardware innovations, and cloud services. The company aims to empower every person and organization on the planet to achieve more.</p>
-
-            <h2>History</h2>
-            <p>Microsoft began as a small software vendor, creating a version of the BASIC programming language for the Altair 8800. Over the years, it launched successful products such as MS-DOS, Windows, and Microsoft Office, which have become staples in both personal and professional computing.</p>
-
-            <h2>Mission and Vision</h2>
-            <p>Microsoft's mission is "to empower every person and every organization on the planet to achieve more." The company envisions a world where technology enables everyone to succeed and thrive in their personal and professional lives.</p>
-
-            <h2>Core Values</h2>
-            <p>Microsoft is guided by a set of core values that include:</p>
-            <ul>
-                <li><strong>Integrity:</strong> Upholding ethical standards in all operations.</li>
-                <li><strong>Innovation:</strong> Driving innovation to meet the needs of users.</li>
-                <li><strong>Diversity and Inclusion:</strong> Fostering a diverse workforce and inclusive culture.</li>
-                <li><strong>Sustainability:</strong> Committing to environmentally responsible practices.</li>
-            </ul>
-
-            <h2>Looking Forward</h2>
-            <p>With a strong focus on cloud computing, artificial intelligence, and cybersecurity, Microsoft continues to innovate and adapt to the ever-changing technology landscape. The company remains committed to creating products and services that enhance productivity, creativity, and connectivity.</p>
-        </div>
-
-        <div class="footer">
-            &copy; 1997 Microsoft Corporation. All rights reserved.
-        </div>
-    </div>
+    <table>
+        <!-- Header -->
+        <tr>
+            <td colspan="2">
+                <h1>Microsoft Corporation - Company Information</h1>
+            </td>
+        </tr>
+        <!-- Sidebar Navigation -->
+        <tr>
+            <td class="sidebar">
+                <b>Navigation</b><br><br>
+                <a href="index.html">Home</a><br>
+            </td>
+            <!-- Main Content -->
+            <td class="content">
+                <h2>About Microsoft</h2>
+                <p>Founded in 1975 by Bill Gates and Paul Allen, Microsoft Corporation has grown from a small startup to a global leader in software, services, devices, and solutions. We strive to empower every person and organization on the planet to achieve more.</p>
+                
+                <h3>Our Mission</h3>
+                <p>At Microsoft, our mission is to enable people and businesses throughout the world to realize their full potential. We deliver innovation in areas like cloud computing, AI, and productivity, making a positive impact on both large enterprises and individual users.</p>
+                
+                <h3>Global Presence</h3>
+                <p>With offices, research centers, and operations in over 100 countries, Microsoft serves millions of customers globally. Our products, such as Windows, Office, and Azure, reach users in virtually every industry, helping drive success and transformation.</p>
+                
+                <h3>Innovation and Technology</h3>
+                <p>From pioneering the personal computer revolution to leading advancements in artificial intelligence, Microsoft is dedicated to developing transformative technology that shapes the future of the digital world. We continue to invest heavily in research and development to fuel ongoing progress.</p>
+                
+                <h3>Corporate Social Responsibility</h3>
+                <p>As part of our commitment to giving back to communities, Microsoft emphasizes corporate social responsibility, focusing on areas such as digital inclusion, environmental sustainability, and empowering nonprofits with technology solutions.</p>
+            </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" class="footer">
+                &copy; 1997 Microsoft Corporation. All rights reserved. This is a tribute website.
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

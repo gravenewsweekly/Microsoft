@@ -3,112 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Downloads - Microsoft Tribute</title>
+    <title>Microsoft - Downloads</title>
     <style>
-        /* General reset and body styling */
+        /* Basic CSS to simulate the 1997 look */
         body {
             font-family: Arial, sans-serif;
-            color: #000;
-            background-color: #E5E5E5;
+            background-color: #FFFFFF;
+            color: #000000;
             margin: 0;
             padding: 0;
-            display: flex;
-        }
-
-        /* Left sidebar styling */
-        .sidebar {
-            width: 200px;
-            background-color: #C0C0C0;
-            padding: 15px;
-            border-right: 2px solid #A0A0A0;
-        }
-
-        .sidebar h2 {
-            font-size: 1.2em;
-            color: #00008B;
-        }
-
-        .sidebar a {
-            display: block;
-            color: #0000EE;
-            text-decoration: none;
-            margin: 10px 0;
-            font-size: 14px;
-        }
-
-        .sidebar a:hover {
-            text-decoration: underline;
-        }
-
-        /* Main content styling */
-        .main-content {
-            padding: 20px;
-            flex-grow: 1;
-        }
-
-        .header {
-            background-color: #A0A0A0;
-            color: #000;
-            padding: 10px;
             text-align: center;
-            font-weight: bold;
-            font-size: 1.5em;
-            border-bottom: 2px solid #808080;
+        }
+
+        table {
+            width: 760px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+            text-align: left;
+        }
+
+        /* Navigation sidebar */
+        .sidebar {
+            width: 150px;
+            vertical-align: top;
+            padding: 10px;
+            background-color: #F0F0F0;
+            border-right: 1px solid #CCCCCC;
         }
 
         .content {
-            margin-top: 20px;
-            font-size: 1em;
+            padding: 20px;
         }
 
-        /* Footer styling */
+        h1 {
+            font-size: 24px;
+            color: #003399;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #003399;
+            text-align: left;
+        }
+
+        a {
+            color: #003399;
+            text-decoration: underline;
+        }
+
         .footer {
-            font-size: 0.8em;
-            color: #505050;
-            text-align: center;
+            font-size: 12px;
+            color: #666666;
             padding: 10px;
-            border-top: 2px solid #A0A0A0;
+            border-top: 1px solid #CCCCCC;
+        }
+
+        .download-item {
+            margin-bottom: 15px;
+        }
+
+        .note {
+            color: #666666;
+            font-size: 12px;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Left Sidebar Navigation -->
-    <div class="sidebar">
-        <h2>Navigation</h2>
-        <a href="index.html">Home</a>
-    </div>
+    <table>
+        <!-- Header -->
+        <tr>
+            <td colspan="2">
+                <h1>Microsoft Corporation - Downloads</h1>
+            </td>
+        </tr>
+        <!-- Sidebar Navigation -->
+        <tr>
+            <td class="sidebar">
+                <b>Navigation</b><br><br>
+                <a href="index.html">Home</a><br>
+            </td>
+            <!-- Main Content -->
+            <td class="content">
+                <h2>Downloads</h2>
+                <p>Explore and download iconic Microsoft software from the 1990s. Click the links below to access versions that celebrate Microsoft’s legacy. Note: These links are for demonstration purposes only and will redirect accordingly.</p>
 
-    <!-- Main Content Area -->
-    <div class="main-content">
-        <div class="header">Downloads</div>
+                <div class="download-item">
+                    <h3>Windows 95</h3>
+                    <p>Experience the operating system that revolutionized personal computing. <a href="https://isoriver.com/download-your-file-now/?url=https://archive.org/download/Win95OSR2/Windows%2095.zip" target="_blank">Download Windows 95</a></p>
+                </div>
 
-        <div class="content">
-            <h2>Available Downloads</h2>
-            <p>Welcome to the Microsoft Tribute Downloads page. Here, you can find various resources that celebrate the legacy of Microsoft from the late 1990s. These downloads are provided for educational and nostalgic purposes.</p>
+                <div class="download-item">
+                    <h3>Microsoft Office 97</h3>
+                    <p>The essential office suite from the 90s. <a href="https://microsoft-office-97-standard-edition.software.informer.com/download/" target="_blank">Download Office 97</a></p>
+                </div>
 
-            <h3>Microsoft Office 97</h3>
-            <p>Microsoft Office 97 is one of the most popular office productivity suites from the late 1990s. It includes Word, Excel, PowerPoint, and Access. Although this version is no longer supported, it remains a significant part of Microsoft's history.</p>
-            <a href="https://microsoft-office-97-standard-edition.software.informer.com/12.0/" download>Download Microsoft Office 97</a>
+                <div class="download-item">
+                    <h3>Internet Explorer 4.0</h3>
+                    <p>Browse the web with the classic Internet Explorer. <a href="http://www.oldapps.com/internet_explorer.php?app=3c8d8f84f95de71b7f6462b13b8322b2" target="_blank">Download Internet Explorer 4.0</a></p>
+                </div>
 
-            <h3>Windows 98</h3>
-            <p>Windows 98 was a major upgrade to the Windows operating system, featuring a more user-friendly interface and improved performance. It laid the groundwork for future versions of Windows.</p>
-            <a href="https://isoriver.com/download-your-file-now/?url=https://archive.org/download/Microsoft_Office_98_Macintosh_Edition_Microsoft_X03-56083_1998/Microsoft%20Office%2098%20Macintosh%20Edition%20%28Microsoft%29%28X03-56083%29%281998%29.iso" download>Download Windows 98</a>
-
-            <h3>Microsoft Encarta 97</h3>
-            <p>Microsoft Encarta 97 was a digital encyclopedia that provided information on a wide range of topics. It was a popular educational resource during its time.</p>
-            <a href="https://www.macintoshrepository.org/download.php?id=458" download>Download Microsoft Encarta 97</a>
-
-            <h3>Microsoft Internet Explorer 5.0</h3>
-            <p>Internet Explorer 5.0 was a popular web browser that introduced several new features, including support for cascading style sheets and improved JavaScript performance.</p>
-            <a href="https://www.my-internet-explorer.com/downloads/IE-5.0.rar" download>Download Internet Explorer 5.0</a>
-
-            <p>All downloads are provided as-is and for viewing purposes only. Enjoy exploring the rich history of Microsoft!</p>
-        </div>
-
-        <div class="footer">
-            &copy; 1997 Microsoft Corporation. All rights reserved. Tribute Project.
-        </div>
-    </div>
+                <div class="note">
+                    <p>Note: This is a tribute website only, created for nostalgic purposes. Download links are lead to actual software.</p>
+                </div>
+            </td>
+        </tr>
+        <!-- Footer -->
+        <tr>
+            <td colspan="2" class="footer">
+                &copy; 1997 Microsoft Corporation. All rights reserved. This is a tribute website.
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

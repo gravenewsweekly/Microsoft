@@ -7,7 +7,7 @@
     <style>
         /* Base styling to match the look and feel of Microsoft's 1997 website */
         body {
-            font-family: Verdana, Arial, sans-serif;
+            font-family: 'Verdana', 'Arial', sans-serif;
             background-color: #FFFFFF;
             color: #000000;
             margin: 0;
@@ -27,11 +27,12 @@
 
         /* Header styling */
         h1 {
-            font-size: 26px;
-            color: #003399;
+            font-size: 28px; /* Increased size for header */
+            color: #003399; /* Classic blue color */
             text-align: left;
             padding: 10px;
-            border-bottom: 2px solid #CCCCCC;
+            border-bottom: 3px solid #CCCCCC; /* Thicker border */
+            background-color: #F0F0F0; /* Light gray background */
         }
 
         h2 {
@@ -64,6 +65,7 @@
             color: #003399;
             text-decoration: underline;
             font-weight: bold;
+            font-size: 14px; /* Consistent link font size */
         }
 
         a:hover {
@@ -85,6 +87,14 @@
         td {
             padding: 5px;
         }
+
+        /* Add an image header (logo) to mimic the original site */
+        .header-logo {
+            display: block;
+            margin: 0 auto;
+            width: 200px; /* Adjust logo size */
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -92,7 +102,7 @@
         <!-- Header -->
         <tr>
             <td colspan="2">
-                <h1>Microsoft Corporation</h1>
+                <h1><img src="path/to/logo.png" alt="Microsoft Logo" class="header-logo"></h1> <!-- Add your logo here -->
             </td>
         </tr>
         <!-- Sidebar Navigation -->

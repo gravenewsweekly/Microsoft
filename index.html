@@ -3,97 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microsoft - 1997 Retro Tribute</title>
+    <title>Microsoft - 1987 Retro Tribute</title>
     <style>
-        /* Base styling to match the look and feel of Microsoft's 1997 website */
+        /* Base styling to match an 80's retro web design */
         body {
-            font-family: 'Verdana', 'Arial', sans-serif;
-            background-color: #FFFFFF;
+            font-family: "Times New Roman", serif;
+            background-color: #E0E0E0; /* Light grey retro background */
             color: #000000;
             margin: 0;
             padding: 0;
             text-align: center;
         }
 
-        /* Fixed-width main table to center content */
+        /* Fixed-width layout for centered content */
         table {
             width: 760px;
             margin: auto;
             border-collapse: collapse;
-            background-color: #FFFFFF;
+            background-color: #FFFFFF; /* White main content area */
             text-align: left;
-            border: 1px solid #CCCCCC;
+            border: 2px solid #666666;
         }
 
         /* Header styling */
         h1 {
-            font-size: 28px; /* Increased size for header */
-            color: #003399; /* Classic blue color */
-            text-align: left;
-            padding: 10px;
-            border-bottom: 3px solid #CCCCCC; /* Thicker border */
-            background-color: #F0F0F0; /* Light gray background */
+            font-size: 28px;
+            color: #003366; /* Dark navy */
+            text-align: center;
+            padding: 15px;
+            margin: 0;
+            background: linear-gradient(to bottom, #CCCCFF, #99CCFF); /* Retro gradient */
+            border-bottom: 3px solid #666666;
         }
 
         h2 {
-            font-size: 20px;
-            color: #003399;
-            padding-bottom: 10px;
+            font-size: 18px;
+            color: #003366;
+            padding: 10px;
             border-bottom: 1px solid #CCCCCC;
-            margin-top: 0;
+            margin: 0;
         }
 
-        /* Styling for sidebar navigation */
+        /* Sidebar navigation */
         .sidebar {
             width: 160px;
             vertical-align: top;
             padding: 10px;
-            background-color: #F0F0F0;
-            border-right: 1px solid #CCCCCC;
+            background-color: #F2F2F2; /* Light grey */
+            border-right: 2px solid #666666;
             font-size: 14px;
         }
 
-        /* Main content section */
-        .content {
-            padding: 15px;
-            font-size: 14px;
-            line-height: 1.4;
-        }
-
-        /* Link styling typical of 1990s Microsoft websites */
-        a {
-            color: #003399;
-            text-decoration: underline;
-            font-weight: bold;
-            font-size: 14px; /* Consistent link font size */
-        }
-
-        a:hover {
-            color: #0066CC;
+        .sidebar a {
+            display: block;
+            color: #003366;
             text-decoration: none;
+            margin-bottom: 8px;
+            padding: 5px;
+            border: 1px solid #CCCCCC;
+            background-color: #E6E6FA; /* Light lavender */
         }
 
-        /* Footer styling with a light border and centered text */
+        .sidebar a:hover {
+            background-color: #99CCFF; /* Light blue hover effect */
+            color: #000000;
+        }
+
+        /* Main content area */
+        .content {
+            padding: 20px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* Footer styling */
         .footer {
             font-size: 12px;
-            color: #666666;
+            color: #333333;
             padding: 10px;
-            border-top: 1px solid #CCCCCC;
-            background-color: #F0F0F0;
+            border-top: 3px solid #666666;
+            background-color: #E0E0E0;
             text-align: center;
         }
 
-        /* Additional styles for typical 90s table layouts */
-        td {
-            padding: 5px;
+        /* Links with a bold retro underline */
+        a {
+            color: #003366;
+            text-decoration: underline;
+            font-weight: bold;
         }
 
-        /* Add an image header (logo) to mimic the original site */
-        .header-logo {
-            display: block;
-            margin: 0 auto;
-            width: 200px; /* Adjust logo size */
-            height: auto;
+        a:hover {
+            color: #006699;
+            text-decoration: none;
+        }
+
+        /* Buttons styled like the 80's */
+        .button {
+            padding: 8px 12px;
+            color: #FFFFFF;
+            background-color: #003366;
+            border: 2px solid #666666;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #006699;
         }
     </style>
 </head>
@@ -102,33 +118,33 @@
         <!-- Header -->
         <tr>
             <td colspan="2">
-                <h1><img src="path/to/logo.png" alt="Microsoft Logo" class="header-logo"></h1> <!-- Add your logo here -->
+                <h1>Microsoft Corporation</h1>
             </td>
         </tr>
         <!-- Sidebar Navigation -->
         <tr>
             <td class="sidebar">
                 <b>Navigation</b><br><br>
-                <a href="index.html">Home</a><br>
-                <a href="Company.html">Company Info</a><br>
-                <a href="Support.html">Support</a><br>
-                <a href="Faq.html">FAQ</a><br>
-                <a href="Products.html">Products</a><br>
-                <a href="Contact.html">Contact</a><br>
-                <a href="Download.html">Downloads</a><br>
+                <a href="index.html">Home</a>
+                <a href="Company.html">Company Info</a>
+                <a href="Support.html">Support</a>
+                <a href="Faq.html">FAQ</a>
+                <a href="Products.html">Products</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Download.html">Downloads</a>
             </td>
             <!-- Main Content -->
             <td class="content">
                 <h2>Welcome to Microsoft</h2>
                 <p>Welcome to the Microsoft website, where you can find information on our products, services, and company news.</p>
                 <p>Explore the latest software releases, read about our commitment to innovation, and find out how we are shaping the future of technology.</p>
-                <p>This website is designed to give you a look back into the world of Microsoft in the late 1990s.</p>
+                <p>This website is designed to give you a nostalgic look at the technology of the 1980s.</p>
             </td>
         </tr>
         <!-- Footer -->
         <tr>
             <td colspan="2" class="footer">
-                &copy; 1997 Microsoft Corporation. All rights reserved.
+                &copy; 1987 Microsoft Corporation. All rights reserved.
             </td>
         </tr>
     </table>

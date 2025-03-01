@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft - 1997 Retro Tribute</title>
     <style>
-        /* Base styling to match the look and feel of Microsoft's 1997 website */
+        /* Base styling to match Microsoft's 1997 website */
         body {
             font-family: Verdana, Arial, sans-serif;
             background-color: #FFFFFF;
@@ -52,6 +52,16 @@
             font-size: 14px;
         }
 
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 8px;
+        }
+
         /* Main content section */
         .content {
             padding: 15px;
@@ -85,27 +95,49 @@
         td {
             padding: 5px;
         }
+
+        /* Responsive Design */
+        @media (max-width: 800px) {
+            table {
+                width: 95%;
+            }
+
+            .sidebar {
+                width: auto;
+                display: block;
+                text-align: center;
+                border-right: none;
+            }
+
+            .content {
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
     <table>
-        <!-- Header -->
+        <!-- Header with logo -->
         <tr>
             <td colspan="2">
-                <h1>Microsoft Corporation</h1>
+                <h1>
+                    <img src="microsoft-logo-1997.png" alt="Microsoft Logo" width="150" height="40">
+                </h1>
             </td>
         </tr>
         <!-- Sidebar Navigation -->
         <tr>
             <td class="sidebar">
-                <b>Navigation</b><br><br>
-                <a href="index.html">Home</a><br>
-                <a href="Company.html">Company Info</a><br>
-                <a href="Support.html">Support</a><br>
-                <a href="Faq.html">FAQ</a><br>
-                <a href="Products.html">Products</a><br>
-                <a href="Contact.html">Contact</a><br>
-                <a href="Download.html">Downloads</a><br>
+                <b>Navigation</b>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company.html">Company Info</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="download.html">Downloads</a></li>
+                </ul>
             </td>
             <!-- Main Content -->
             <td class="content">
